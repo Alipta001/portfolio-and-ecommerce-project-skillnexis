@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive e-commerce landing page demo.">
+  <title>Forma — Everyday Objects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body class="shop-page">
+  <div class="announcement">Thoughtful essentials for everyday living <span>·</span> Free shipping over ₹1,999</div>
+  <header class="site-header shop-header"><nav class="navbar container" aria-label="Shop navigation">
+    <a class="shop-logo" href="shop.html">forma<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="nav-links"><li><a href="#new">New arrivals</a></li><li><a href="#collection">Collection</a></li><li><a href="#story">Our story</a></li><li><a href="index.html">Portfolio</a></li><li><a class="cart-link" href="#collection">Bag <span id="cartCount">0</span></a></li></ul>
+  </nav></header>
+  <main>
+    <section class="shop-hero"><div class="container shop-hero-inner"><div class="shop-hero-copy"><p class="eyebrow">OBJECTS FOR BETTER EVERYDAYS</p><h1>Less, but<br><em>better.</em></h1><p>Considered pieces for your space, your rituals and the moments in between. Designed to be used, loved and kept.</p><a href="#collection" class="button shop-button">Explore the collection <span>↗</span></a></div><div class="shop-hero-image"><img src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=1200&q=85" alt="Minimal warm-toned living room with carefully selected furniture"></div></div></section>
+    <section class="shop-benefits container"><div><b>01</b><span>Thoughtful design</span></div><div><b>02</b><span>Made to last</span></div><div><b>03</b><span>Shipping across India</span></div></section>
+    <section class="section container shop-products" id="collection"><div class="shop-section-heading"><div><p class="eyebrow">THE EDIT</p><h2>Everyday favourites.</h2></div><p>Useful forms. Honest materials. A little more intention in every detail.</p></div>
+      <div class="product-grid" id="new">
+        <article class="product-card"><div class="product-image"><img src="https://images.unsplash.com/photo-1490312278390-ab64016e0aa9?auto=format&fit=crop&w=700&q=80" alt="Minimal home interior"><span class="product-label">BESTSELLER</span></div><div class="product-details"><div><h3>Arc Table Lamp</h3><p>Warm ambient lighting</p></div><strong>₹2,499</strong></div><button class="add-button" data-product="Arc Table Lamp">Add to bag +</button></article>
+        <article class="product-card"><div class="product-image"><img src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&w=700&q=80" alt="Handcrafted ceramic vase"></div><div class="product-details"><div><h3>Forma Ceramic Vase</h3><p>Hand-finished stoneware</p></div><strong>₹1,299</strong></div><button class="add-button" data-product="Forma Ceramic Vase">Add to bag +</button></article>
+        <article class="product-card"><div class="product-image"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=700&q=80" alt="Neutral modern living room"></div><div class="product-details"><div><h3>Everyday Throw</h3><p>Soft textured cotton</p></div><strong>₹1,799</strong></div><button class="add-button" data-product="Everyday Throw">Add to bag +</button></article>
+      </div><p class="cart-feedback" id="cartFeedback" role="status" aria-live="polite"></p>
+    </section>
+    <section class="shop-story" id="story"><div class="container story-inner"><p class="eyebrow">A MORE CONSIDERED WAY</p><h2>Buy fewer things.<br><em>Choose them well.</em></h2><p>Forma is a fictional storefront concept demonstrating a responsive e-commerce landing page. Product actions are front-end demonstrations; no real checkout or payment is connected.</p><a href="index.html" class="text-link">Back to Alipta's portfolio ↗</a></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="shop-logo" href="shop.html">forma<span>.</span></a><p>Demo storefront · Built with HTML, CSS & JavaScript</p><a href="index.html">Developer portfolio ↗</a></div></footer>
+</body></html>

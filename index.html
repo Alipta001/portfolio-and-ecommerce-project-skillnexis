@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Alipta Ghosh — Computer Science student and full-stack web developer."
+    />
+    <title>Alipta Ghosh | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Main navigation">
+        <a class="logo" href="index.html">AG<span>.</span></a>
+        <button
+          class="menu-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="nav-cta" href="shop.html">Shop Demo</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span> Available for internship
+            opportunities
+          </p>
+          <h1>Building thoughtful<br /><span>digital experiences.</span></h1>
+          <p class="hero-description">
+            I'm Alipta Ghosh, a Computer Science & Engineering student and web
+            developer focused on creating useful, accessible and polished web
+            applications.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects"
+              >Explore my work <span>↗</span></a
+            >
+            <a class="button button-secondary" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-meta">
+            <span>Based in India</span><span>·</span
+            ><span>B.Tech CSE, Class of 2028</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Abstract portfolio illustration">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-card">
+            <div class="art-card-top">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="art-code">
+              <b>const</b> developer = {<br />&nbsp; name:
+              <em>"Alipta"</em>,<br />&nbsp; focus:
+              <em>"Full Stack"</em>,<br />&nbsp; mindset:
+              <em>"Keep building"</em><br />};
+            </div>
+            <div class="art-bottom">
+              <span>✳</span><span>DESIGN · DEVELOP · DEPLOY</span>
+            </div>
+          </div>
+          <div class="floating-chip chip-one">React / Next.js</div>
+          <div class="floating-chip chip-two">Always learning ↗</div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="about">
+        <div class="container two-column">
+          <div>
+            <p class="eyebrow">01 / ABOUT ME</p>
+            <h2>
+              Curiosity turns<br />into <span class="accent">creation.</span>
+            </h2>
+          </div>
+          <div class="section-copy">
+            <p>
+              I'm pursuing a degree in Computer Science & Engineering and enjoy
+              turning ideas into practical web products. My work spans
+              responsive interfaces, backend APIs, database integration and
+              full-stack application development.
+            </p>
+            <p>
+              I'm currently strengthening my backend engineering and system
+              design skills while building projects that solve real problems.
+            </p>
+            <a
+              class="text-link"
+              href="https://github.com/Alipta001"
+              target="_blank"
+              rel="noreferrer"
+              >Explore my GitHub ↗</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="skills">
+        <p class="eyebrow">02 / TOOLKIT</p>
+        <h2>Skills & technologies</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-icon">⌘</span>
+            <h3>Frontend</h3>
+            <p>HTML · CSS · JavaScript · React · Next.js · Tailwind CSS</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">⌁</span>
+            <h3>Backend</h3>
+            <p>Node.js · Express.js · REST APIs · Authentication</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">▦</span>
+            <h3>Database & tools</h3>
+            <p>MongoDB · Git · GitHub · VS Code · Postman</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="projects">
+        <div class="container">
+          <p class="eyebrow">03 / SELECTED WORK</p>
+          <h2>Things I've <span>built.</span></h2>
+          <div class="projects-grid">
+            <article class="project-card project-featured">
+              <div class="project-visual rupakar-visual">
+                <span>R</span><small>ROOTED IN CRAFT</small>
+              </div>
+              <div class="project-info">
+                <div>
+                  <p class="project-type">MULTI-VENDOR MARKETPLACE</p>
+                  <h3>Rupakar</h3>
+                </div>
+                <p>
+                  A marketplace concept connecting customers with authentic
+                  Bengal handicrafts, terracotta and traditional art.
+                </p>
+                <div class="tag-row">
+                  <span>Next.js</span><span>Node.js</span><span>MongoDB</span>
+                </div>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-visual blog-visual">
+                <span>✎</span><small>WRITE. SHARE. CONNECT.</small>
+              </div>
+              <div class="project-info">
+                <div>
+                  <p class="project-type">CONTENT PLATFORM</p>
+                  <h3>Blog Management System</h3>
+                </div>
+                <p>
+                  A role-based blogging platform with author, reader and
+                  administration workflows.
+                </p>
+                <div class="tag-row">
+                  <span>React</span><span>Express</span><span>MongoDB</span>
+                </div>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-visual tranquilo-visual">
+                <span>☕</span><small>WORK · SIP · REPEAT</small>
+              </div>
+              <div class="project-info">
+                <div>
+                  <p class="project-type">BUSINESS WEBSITE CONCEPT</p>
+                  <h3>Tranquilo Café</h3>
+                </div>
+                <p>
+                  A premium café and coworking website concept focused on
+                  ambience and enquiries.
+                </p>
+                <div class="tag-row">
+                  <span>Next.js</span><span>Tailwind CSS</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container contact-section" id="contact">
+        <div class="contact-heading">
+          <p class="eyebrow">04 / CONTACT</p>
+          <h2>Have an idea?<br /><span class="accent">Let's talk.</span></h2>
+          <p>Send a message about an opportunity, collaboration or project.</p>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Your name</label
+            ><input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Enter your name"
+              required
+              minlength="2"
+            /><small class="error" id="nameError"></small>
+          </div>
+          <div class="form-row">
+            <label for="email">Email address</label
+            ><input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="you@example.com"
+              required
+            /><small class="error" id="emailError"></small>
+          </div>
+          <div class="form-row">
+            <label for="subject">Subject</label
+            ><input
+              id="subject"
+              name="subject"
+              type="text"
+              placeholder="What would you like to discuss?"
+              required
+              minlength="3"
+            /><small class="error" id="subjectError"></small>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label
+            ><textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Write your message..."
+              required
+              minlength="10"
+            ></textarea
+            ><small class="error" id="messageError"></small>
+          </div>
+          <button class="button button-primary submit-button" type="submit">
+            Validate message <span>↗</span>
+          </button>
+          <p
+            class="form-feedback"
+            id="formFeedback"
+            role="status"
+            aria-live="polite"
+          ></p>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="logo" href="#home">AG<span>.</span></a>
+        <p>Designed & built by Alipta Ghosh · 2026</p>
+        <div>
+          <a
+            href="https://github.com/Alipta001"
+            target="_blank"
+            rel="noreferrer"
+            >GitHub ↗</a
+          ><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"
+            >LinkedIn ↗</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
